@@ -3,5 +3,9 @@ module.exports = {
     logger: {
       level: "error",
     },
+    cors: {
+      enabled: true,
+      origin: ["*"],
+    },
   },
 };
