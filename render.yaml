@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: strapi
+    name: GlowUp-backend
     env: node
     plan: starter
     buildCommand: yarn install && yarn build
